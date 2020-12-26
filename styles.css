@@ -199,6 +199,13 @@
 }
 */
 
+@media screen and (max-width: 481px){
+  #media {
+    width:480px; 
+    height:500px
+  }
+}
+
 body {
   background-color: #001f3f;
   display: flex;
