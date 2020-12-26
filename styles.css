@@ -151,7 +151,7 @@
 
 .right_elmt {
   padding-top: 1px;
-  padding-left: 10px;
+  padding-left: 0px;
   width: 50%;
   height: 100%;
   background: transparent;
@@ -174,12 +174,32 @@
 
 .sright_elmt {
   padding-top: 1px;
-  padding-left: 10px;
+  padding-left: 0px;
   width: 15%;
   height: 100%;
   background: transparent;
   float: right;
 }
+
+@media screen and (max-width: 481px) {
+  .right_elmt {
+    padding-top: 1px;
+    padding-left: 20px;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    float: right;
+  }
+  .sright_elmt {
+    padding-top: 1px;
+    padding-left: 40px;
+    width: 15%;
+    height: 100%;
+    background: transparent;
+    float: right;
+  }
+}
+
 
 .spacer{
   padding-top:245px;
