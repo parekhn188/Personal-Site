@@ -185,6 +185,10 @@
   padding-top:10px;
 }
 
+.left_padded {
+  padding-left:10%;
+}
+
 /*
 @media screen and (max-width: 481px){
   #main, #subnav {
