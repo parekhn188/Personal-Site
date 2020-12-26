@@ -182,7 +182,15 @@
 }
 
 .spacer{
-  padding-top:245px;
+  padding-top:50px;
+}
+
+@media-screen and (max-width: 481px){
+  #main, #subnav (
+    float:left; 
+    widows: 94px;
+    padding:0;
+  )
 }
 
 body {
