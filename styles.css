@@ -151,6 +151,7 @@
 
 .right_elmt {
   padding-top: 1px;
+  padding-left: 5px;
   width: 50%;
   height: 100%;
   background: transparent;
@@ -173,6 +174,7 @@
 
 .sright_elmt {
   padding-top: 1px;
+  padding-left: 5px;
   width: 15%;
   height: 100%;
   background: transparent;
